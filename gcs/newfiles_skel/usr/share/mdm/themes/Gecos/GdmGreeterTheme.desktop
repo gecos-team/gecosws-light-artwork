@@ -1,0 +1,7 @@
+[GdmGreeterTheme]
+Greeter=Gecos.xml
+Name=Gecos
+Description=Tema de bienvenida de Gecos v2
+Author=Juan Jesús Ojeda, Roberto C. Morano, David Amian
+Copyright=(c) 2009 Junta de Andalucía
+Screenshot=screenshot.png

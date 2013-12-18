@@ -1,0 +1,25 @@
+# YAML 1.1
+# Fichero de configuración de paquetes de personalización de Guadalinex v6
+
+# Nombre del paquete (minúsculas-separado-con-guiones)
+name: gecosws-light-artwork
+
+# Autor 
+author: David Amian <damian@emergya.com>
+
+# Priority
+priority: optional
+
+# Section
+section: metapackages
+
+shortdesc: "Gecos Light artwork"
+
+longdesc: "This package contains every Gecos Light artwork file (backgrounds, icons...)."
+
+# Versión del paquete
+version: 2.0
+
+# Cambios en esta versión
+changes:
+    - initial release.
