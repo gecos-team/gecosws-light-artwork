@@ -14,13 +14,7 @@
         <pos x="50%" y="33%" anchor="c"/>
     </item> -->
 
-  <!-- Junta de Andalucía logo -->
-    <item type="pixmap">
-        <normal file="juntaandalucia_logo.svg" alpha="1.0"/>
-        <pos x="50%" y="80%" width="22%" height="16%" anchor="c"/>
-    </item>
-
-  <!-- bottom bar -->
+      <!-- bottom bar -->
   <item type="pixmap">
      <normal file="bottom_bar.svg"/>
     <pos y="100%" x="0" width="100%" height="100" anchor="sw"/>
