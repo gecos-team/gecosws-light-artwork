@@ -61,7 +61,7 @@ Plugin {
             id=firefox.desktop
         }
         Button {
-            id=help-gecos.desktop
+            id=help-mantis.desktop
         }
 
     }
