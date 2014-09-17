@@ -74,7 +74,7 @@ Plugin {
 Plugin {
     type = wincmd
     Config {
-        image=window-manager
+        image=desktop
         Button1=iconify
         Button2=shade
         Toggle=0
