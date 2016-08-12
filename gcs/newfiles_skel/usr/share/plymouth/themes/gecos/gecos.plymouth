@@ -4,7 +4,7 @@ Description=The GECOS official theme for plymouth.
 ModuleName=two-step
 
 [two-step]
-ImageDir=/lib/plymouth/themes/gecos
+ImageDir=/usr/share/plymouth/themes/gecos
 HorizontalAlignment=.5
 VerticalAlignment=.5
 Transition=none
