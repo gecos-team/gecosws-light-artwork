@@ -1,5 +1,5 @@
 # YAML 1.1
-# Fichero de configuración de paquetes de personalización de Guadalinex v6
+# Fichero de configuración de paquetes de personalización de Guadalinex GECOS v3 Lite
 
 
 # Nombre del paquete (minúsculas-separado-con-guiones)
@@ -14,13 +14,14 @@ priority: optional
 # Section
 section: metapackages
 
-shortdesc: "Gecos Light artwork"
+shortdesc: "Gecos v3 Lite artwork"
 
-longdesc: "This package contains every Gecos Light artwork file (backgrounds, icons...)."
+longdesc: "This package contains every Gecos v3 Lite artwork file (backgrounds, icons...)."
 
 # Versión del paquete
-version: 2.0
+version: 3.0
 
 # Cambios en esta versión
 changes:
     - initial release.
+    - Update to version 3
