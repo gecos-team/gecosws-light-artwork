@@ -493,7 +493,7 @@ GdMainIconView.content-view {
     
     /* this is used for the resize cursor area */
     margin: 2px;
-	background-color: @theme_bg_color;
+    background-color: @theme_bg_color;
 }
 
 .window-frame.tiled {
@@ -502,7 +502,7 @@ GdMainIconView.content-view {
 }
 
 .window-frame:backdrop {
-    box-shadow: 0 2px 5px 1px alpha(black, 0.5);
+    /*box-shadow: 0 2px 5px 1px alpha(black, 0.5); */
 }
 
 /****************
