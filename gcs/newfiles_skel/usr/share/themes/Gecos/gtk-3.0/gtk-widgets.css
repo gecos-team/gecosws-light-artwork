@@ -489,10 +489,11 @@ GdMainIconView.content-view {
     border-width: 1px;
     border-radius: 6px 6px 0 0;
     border-color: darker(@theme_bg_color);
-    box-shadow: 0 2px 8px 3px alpha(black, 0.5);
+    /* box-shadow: 0 2px 8px 3px alpha(black, 0.5); */
     
     /* this is used for the resize cursor area */
-    margin: 10px;
+    margin: 2px;
+	background-color: @theme_bg_color;
 }
 
 .window-frame.tiled {
