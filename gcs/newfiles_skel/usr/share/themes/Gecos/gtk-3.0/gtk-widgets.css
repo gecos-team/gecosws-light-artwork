@@ -465,11 +465,26 @@ GdMainIconView.content-view {
 
 .titlebar {
     border-radius: 6px 6px 0 0;
+/* No CSD in LXDE
     background-image: linear-gradient(to bottom,
                             @toolbar_bg_c,
                             @toolbar_bg_d);
+*/
+    background-image: linear-gradient(to bottom,
+                            @toolbar_bg_a,
+                            @toolbar_bg_b);
     background-color: none;
-    text-shadow: 0 1px alpha(white, 0.4);                                                        
+    text-shadow: 0 1px alpha(white, 0.4);    
+}
+
+/* 
+ * Hide title in titlebar.
+ * The title will be visible on the main 
+ * "gtk-nocsd" title bar. 
+ */
+.titlebar .title {
+    color: transparent;  
+    text-shadow: none;
 }
 
 .tiled .titlebar {
@@ -485,6 +500,7 @@ GdMainIconView.content-view {
     box-shadow: none;
 }
 
+/* No CSD in LXDE
 .titlebar:backdrop {
     background-image: linear-gradient(to bottom,
                             @toolbar_bg_a,
@@ -492,6 +508,7 @@ GdMainIconView.content-view {
     background-color: none;
     text-shadow: none;
 }
+*/
 
 .window-frame {
     border-style: solid;
