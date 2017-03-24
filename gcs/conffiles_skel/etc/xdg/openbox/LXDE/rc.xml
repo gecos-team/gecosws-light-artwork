@@ -310,6 +310,13 @@
   <keybind key="XF86Display">
       <action name="Execute"><command>lxrandr</command></action>
   </keybind>
+
+  <!-- Launch lxde-logout when Power button is pressed -->
+	<keybind key="XF86PowerOff">
+      <action name="Execute">
+        <command>lxde-logout</command>
+      </action>
+    </keybind>  
   
     <!-- Fast access to Terminal -->
     <keybind key="C-A-T">
